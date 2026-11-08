@@ -1,1 +1,3 @@
 */agents/openai.yaml
+__pycache__/
+*.pyc
