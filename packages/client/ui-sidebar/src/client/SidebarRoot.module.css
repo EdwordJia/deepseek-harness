@@ -280,7 +280,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  height: 24px;
+  height: 30px;
   min-width: 0;
 }
 
@@ -296,7 +296,7 @@
   align-items: center;
   gap: 6px;
   min-width: 0;
-  height: 24px;
+  height: 30px;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;

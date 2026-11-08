@@ -338,22 +338,22 @@ export function SidebarRoot({
           const identity = (
             <span className={css.brandIdentity} aria-hidden="true">
               <span className={css.brandMark}>
-                {renderSlot('sidebar.brand.mark', { size: 24 }, {
+                {renderSlot('sidebar.brand.mark', { size: 30 }, {
                   fallback: buildVersion === undefined
-                    ? <QuanJuLogo size={24} />
+                    ? <QuanJuLogo size={30} />
                     : (
                       <span
                         className={css.copyVersion}
                         data-copy-version
                         onClick={copyVersion(buildVersion)}
                       >
-                        <QuanJuLogo size={24} />
+                        <QuanJuLogo size={30} />
                       </span>
                     ),
                 })}
               </span>
               <span className={css.brandName}>
-                {renderSlot('sidebar.brand.name', {}, {
+                {renderSlot('sidebar.brand.name', { size: 30 }, {
                   fallback: buildVersion === undefined
                     ? <span className={css.fallbackBrandName}>{t('brand.localBuild')}</span>
                     : (

@@ -80,10 +80,10 @@ export function HeroShell({ t, renderSlot, children }: HeroShellProps) {
     <div className={css.root}>
       <div className={css.stack}>
         <div className={css.headline}>
-          {/* 34px 权聚 mark leading the headline, gap 10. */}
+          {/* 40px 权聚 mark leading the headline, gap 10. */}
           <span className={css.fishHitbox}>
-            {renderSlot('conversation.hero.brand.mark', { size: 34, className: css.fish }, {
-              fallback: <QuanJuLogo size={34} className={css.fish} />,
+            {renderSlot('conversation.hero.brand.mark', { size: 40, className: css.fish }, {
+              fallback: <QuanJuLogo size={40} className={css.fish} />,
             })}
           </span>
           <span className={css.titleGroup}>
