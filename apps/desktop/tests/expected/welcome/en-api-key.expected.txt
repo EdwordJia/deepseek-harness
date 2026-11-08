@@ -1,5 +1,5 @@
-DeepSeek Harness
-DeepSeek Harness
+权聚
+权聚
 Add an API key to get started
 Configure official DeepSeek models to start using Harness
 Enter API key [password]
