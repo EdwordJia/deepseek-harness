@@ -3,7 +3,7 @@
 /** English strings (the key-set source of truth for this pair). */
 export const en = {
   nav: 'Models',
-  deepSeekAccount: 'DeepSeek Account',
+  deepSeekAccount: '权聚 Account',
   title: 'Models',
   intro: 'Enter your API keys to use models from the following providers.',
   edit: 'Edit',
@@ -134,7 +134,7 @@ export const en = {
   welcomeContinue: 'Continue',
   welcomeError: 'The acknowledgement could not be saved. Please try again.',
   onboardingTitle: 'Add an API key to get started',
-  onboardingDescription: 'Configure the official DeepSeek provider to start building.',
+  onboardingDescription: 'Configure the official 权聚 provider to start building.',
   onboardingLater: 'Configure later',
   onboardingSave: 'Save and continue',
   onboardingSaving: 'Saving…',
@@ -147,7 +147,7 @@ export type ModelsKey = keyof typeof en
 /** Chinese strings (same keys as {@link en}). */
 export const zh: { [Key in keyof typeof en]: string } = {
   nav: '模型',
-  deepSeekAccount: 'DeepSeek 账号',
+  deepSeekAccount: '权聚 账号',
   title: '模型',
   intro: '填入各提供商的 API 密钥即可使用其模型。',
   edit: '编辑',
@@ -278,7 +278,7 @@ export const zh: { [Key in keyof typeof en]: string } = {
   welcomeContinue: '继续',
   welcomeError: '暂时无法保存确认状态，请重试。',
   onboardingTitle: '添加一个 API Key 开始使用',
-  onboardingDescription: '配置 DeepSeek 官方模型，即可开始使用。',
+  onboardingDescription: '配置 权聚 官方模型，即可开始使用。',
   onboardingLater: '稍后配置',
   onboardingSave: '保存并继续',
   onboardingSaving: '保存中…',
@@ -288,7 +288,7 @@ export const zh: { [Key in keyof typeof en]: string } = {
 /** Japanese copy, checked against the English keys. */
 export const ja = {
   'nav': 'モデル',
-  'deepSeekAccount': 'DeepSeekアカウント',
+  'deepSeekAccount': '权聚アカウント',
   'title': 'モデル',
   'intro': '以下のプロバイダーのモデルを使用するには、APIキーを入力してください。',
   'edit': '編集',
@@ -419,7 +419,7 @@ export const ja = {
   'welcomeContinue': '続ける',
   'welcomeError': '確認を保存できませんでした。もう一度お試しください。',
   'onboardingTitle': 'APIキーを追加して始める',
-  'onboardingDescription': '公式のDeepSeekプロバイダーを設定して開発を始めましょう。',
+  'onboardingDescription': '公式の权聚プロバイダーを設定して開発を始めましょう。',
   'onboardingLater': '後で設定',
   'onboardingSave': '保存して続ける',
   'onboardingSaving': '保存中…',
@@ -429,7 +429,7 @@ export const ja = {
 /** Spanish dictionary, checked against the English keys. */
 export const es = {
   nav: 'Modelos',
-  deepSeekAccount: 'Cuenta DeepSeek',
+  deepSeekAccount: 'Cuenta 权聚',
   title: 'Modelos',
   intro: 'Ingrese sus claves API para usar modelos de los siguientes proveedores.',
   edit: 'Editar',
@@ -560,7 +560,7 @@ export const es = {
   welcomeContinue: 'Continuar',
   welcomeError: 'El reconocimiento no se pudo guardar. Por favor inténtalo de nuevo.',
   onboardingTitle: 'Agregue una clave API para comenzar',
-  onboardingDescription: 'Configure el proveedor oficial DeepSeek para comenzar a construir.',
+  onboardingDescription: 'Configure el proveedor oficial 权聚 para comenzar a construir.',
   onboardingLater: 'Configurar más tarde',
   onboardingSave: 'Guardar y continuar',
   onboardingSaving: 'Guardando…',
@@ -570,7 +570,7 @@ export const es = {
 /** French dictionary, checked against the English keys. */
 export const fr = {
   nav: 'Modèles',
-  deepSeekAccount: 'Compte DeepSeek',
+  deepSeekAccount: 'Compte 权聚',
   title: 'Modèles',
   intro: 'Entrez vos clés API pour utiliser les modèles des fournisseurs suivants.',
   edit: 'Modifier',
@@ -701,7 +701,7 @@ export const fr = {
   welcomeContinue: 'Continuer',
   welcomeError: "L'accusé de réception n'a pas pu être enregistré. Veuillez réessayer.",
   onboardingTitle: 'Ajoutez une clé API pour commencer',
-  onboardingDescription: 'Configurez le fournisseur officiel DeepSeek pour commencer la construction.',
+  onboardingDescription: 'Configurez le fournisseur officiel 权聚 pour commencer la construction.',
   onboardingLater: 'Configurer plus tard',
   onboardingSave: 'Enregistrer et continuer',
   onboardingSaving: 'Sauvegarde…',
@@ -711,7 +711,7 @@ export const fr = {
 /** German dictionary, checked against the English keys. */
 export const de = {
   nav: 'Modelle',
-  deepSeekAccount: 'DeepSeek-Konto',
+  deepSeekAccount: '权聚-Konto',
   title: 'Modelle',
   intro: 'Geben Sie Ihre API-Schlüssel ein, um Modelle der folgenden Anbieter zu verwenden.',
   edit: 'Bearbeiten',
@@ -842,7 +842,7 @@ export const de = {
   welcomeContinue: 'Weiter',
   welcomeError: 'Die Bestätigung konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.',
   onboardingTitle: 'Fügen Sie einen API-Schlüssel hinzu, um loszulegen',
-  onboardingDescription: 'Konfigurieren Sie den offiziellen DeepSeek-Anbieter, um mit der Erstellung zu beginnen.',
+  onboardingDescription: 'Konfigurieren Sie den offiziellen 权聚-Anbieter, um mit der Erstellung zu beginnen.',
   onboardingLater: 'Später konfigurieren',
   onboardingSave: 'Speichern und fortfahren',
   onboardingSaving: 'Speichern…',
@@ -852,7 +852,7 @@ export const de = {
 /** Russian dictionary, checked against the English keys. */
 export const ru = {
   nav: 'Модели',
-  deepSeekAccount: 'DeepSeek Аккаунт',
+  deepSeekAccount: '权聚 Аккаунт',
   title: 'Модели',
   intro: 'Введите ключи API, чтобы использовать модели следующих поставщиков.',
   edit: 'Редактировать',
@@ -983,7 +983,7 @@ export const ru = {
   welcomeContinue: 'Продолжить',
   welcomeError: 'Не удалось сохранить подтверждение. Пожалуйста, попробуйте еще раз.',
   onboardingTitle: 'Добавьте ключ API, чтобы начать работу.',
-  onboardingDescription: 'Настройте официального поставщика DeepSeek, чтобы начать сборку.',
+  onboardingDescription: 'Настройте официального поставщика 权聚, чтобы начать сборку.',
   onboardingLater: 'Настроить позже',
   onboardingSave: 'Сохранить и продолжить',
   onboardingSaving: 'Сохранение…',
@@ -993,7 +993,7 @@ export const ru = {
 /** Portuguese dictionary, checked against the English keys. */
 export const pt = {
   nav: 'Modelos',
-  deepSeekAccount: 'DeepSeek Conta',
+  deepSeekAccount: '权聚 Conta',
   title: 'Modelos',
   intro: 'Insira suas chaves API para usar modelos dos seguintes fornecedores.',
   edit: 'Editar',
@@ -1124,7 +1124,7 @@ export const pt = {
   welcomeContinue: 'Continuar',
   welcomeError: 'A confirmação não pôde ser salva. Por favor, tente novamente.',
   onboardingTitle: 'Adicione uma chave API para começar',
-  onboardingDescription: 'Configure o provedor DeepSeek oficial para começar a compilar.',
+  onboardingDescription: 'Configure o provedor 权聚 oficial para começar a compilar.',
   onboardingLater: 'Configurar mais tarde',
   onboardingSave: 'Salvar e continuar',
   onboardingSaving: 'Salvando…',

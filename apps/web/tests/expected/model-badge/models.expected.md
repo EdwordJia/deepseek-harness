@@ -1,6 +1,6 @@
 - menu "模型":
-  - group "DeepSeek 账号":
-    - text: DeepSeek 账号
+  - group "权聚 账号":
+    - text: 权聚 账号
     - menuitemradio "DeepSeek-V4.1-Flash 1017"
   - group "DeepSeek":
     - text: DeepSeek
