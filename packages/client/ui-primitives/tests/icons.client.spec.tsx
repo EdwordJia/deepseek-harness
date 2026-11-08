@@ -265,14 +265,16 @@ describe('product icon set', () => {
 })
 
 describe('QuanJuLogo', () => {
-  it('renders the document-scale mark in currentColor at a square ratio', () => {
+  it('renders the stamped pleading page in currentColor at a square ratio', () => {
     const { container } = render(<primitives.QuanJuLogo />)
     const svg = container.querySelector('svg')!
     expect(svg.getAttribute('width')).toBe('24')
     expect(svg.getAttribute('height')).toBe('24')
     expect(svg.getAttribute('viewBox')).toBe('0 0 24 24')
-    expect(container.querySelectorAll('path')).toHaveLength(4)
+    expect(container.querySelectorAll('path')).toHaveLength(6)
+    expect(container.querySelectorAll('rect')).toHaveLength(2)
     expect(container.innerHTML).toContain('currentColor')
+    expect(container.innerHTML).toContain('#B03A2E')
   })
 })
 
