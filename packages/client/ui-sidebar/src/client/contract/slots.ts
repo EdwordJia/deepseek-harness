@@ -85,7 +85,7 @@ export interface SidebarBrandMarkOwnerProps {
 /** Empty owner share for the sidebar brand-name occupant. */
 export interface SidebarBrandNameOwnerProps {
   /** Requested artwork height in pixels. */
-  size: number
+  size?: number
   /** Marker field: the occupant owns its own content and width. */
   children?: never
 }

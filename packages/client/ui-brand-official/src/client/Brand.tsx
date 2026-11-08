@@ -15,6 +15,6 @@ export function OfficialBrandMark({ size }: SidebarBrandMarkOwnerProps) {
  * @param props - Host-supplied wordmark presentation.
  * @returns the official name wordmark.
  */
-export function OfficialBrandName({ size }: SidebarBrandNameOwnerProps) {
+export function OfficialBrandName({ size = 24 }: SidebarBrandNameOwnerProps) {
   return <BrandWordmark includeMark={false} size={size} />
 }
